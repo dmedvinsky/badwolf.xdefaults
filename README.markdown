@@ -19,21 +19,21 @@ Installation
 ------------
 
  * git clone git://github.com/dmedvinsky/badwolf.xdefaults
+
  * ln -s badwolf.xdefaults/xdefaults.colors ~/.Xdefaults.colors
+
  * vim ~/.Xdefaults
 
-Add the following line somewhere:
+   Add the following line somewhere (change `username` to your login):
 
-    # include "/home/username/.Xdefaults.colors"
+        # include "/home/username/.Xdefaults.colors"
 
-Don't forget to type your username in the path.
-
-Sadly, I don't know the way to use variables in the `#include` directive. If
-you know, tell me about it, please!
+   Sadly, I don't know the way to use variables in the `#include` directive. If
+   you know, tell me please!
 
  * xrdb ~/.Xdefaults
- * vim ~/.xinitrc
 
-Add the following line somewhere:
+If for some reason your resourses aren't loaded after starting X11, check if
+you have the following line in your `~/.xinitrc`:
 
     xrdb -merge "${HOME}/.Xdefaults"
