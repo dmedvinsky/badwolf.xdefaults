@@ -3,7 +3,7 @@ Bad Wolf for X11 resources
 
 Colors for your .Xresources (or .Xdefaults, or whatever you have).
 
-Basically these were made for rxvt, but they sould work for other stuff, like
+Basically these were made for rxvt, but they should work for other stuff, like
 xterm or something.
 
 The colors are based (pertly snatched, really) from badwolf, a color scheme for
