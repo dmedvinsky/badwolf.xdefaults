@@ -18,7 +18,7 @@ to relicense it? I dunno.
 Installation
 ------------
 
- * git clone git://github.com/dmedvinsky/badwolf.xdefaults
+ * git clone git://github.com/dmedvinsky/badwolf.xdefaults.git
 
  * ln -s badwolf.xdefaults/xdefaults.colors ~/.Xdefaults.colors
 
