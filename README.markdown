@@ -6,7 +6,7 @@ Colors for your .Xresources (or .Xdefaults, or whatever you have).
 Basically these were made for rxvt, but they should work for other stuff, like
 xterm or something.
 
-The colors are based (pertly snatched, really) from badwolf, a color scheme for
+The colors are based (pertly snatched, really) on badwolf, a color scheme for
 Vim pieced together by Steve Losh.
 
 License
